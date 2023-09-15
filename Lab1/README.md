@@ -107,6 +107,7 @@ git branch -a
 # Do a git status to see the changes
 git status
 
+# WE REACHED HERE
 # Let's now make a change to our file in our source(src) directory
 # (Use vim or whichever text editor to update the code.)
 # That is, go ahead and refactor rectangle.cpp from your 'refactor' branch.
