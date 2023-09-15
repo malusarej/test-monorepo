@@ -1,7 +1,7 @@
 # Monorepo
 
 - [ ] *Janhavi Malusare* 
-- [ ] **Juh-aahn-huh-vee **
+- [ ] **Juh-ah-nuh-huh-vee **
 
 ## Important Documents 
 
