@@ -1,11 +1,11 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Name: Janhavi Malusare
+- How many hours did it take you to complete this assignment?: 8 hours
+- Did you collaborate with any other students/TAs/Professors?: No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - https://www.pythonforthelab.com/blog/how-create-setup-file-your-project/
+  - https://www.heybooster.ai/insights/how-to-gitignore-after-commit
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
