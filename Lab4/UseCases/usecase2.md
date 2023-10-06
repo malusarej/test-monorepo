@@ -6,31 +6,49 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**:  Change Drawing Color
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor, a User, wants to select a specific color for drawing in the mini-paint application.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: (1) The mini-paint application is running and accessible. (2) The user interface with the available color options is displayed.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: The user presses one of the number keys (1 through 8) to select a color.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: The user launches the mini-paint application.
+
+**Scenario 2**: The application displays a drawing canvas and a color palette with the following options:
+                        1 = Black
+                        2 = White
+                        3 = Red
+                        4 = Green
+                        5 = Blue
+                        6 = Yellow
+                        7 = Magenta
+                        8 = Cyan
+
+**Scenario 3**: The user presses one of the number keys (1 through 8) corresponding to the desired color.
+
+**Scenario 4**: The application recognizes the user's input and selects the chosen color for drawing.
+
+**Scenario 5**: The selected color is visually indicated to the user, such as by highlighting the chosen color on the palette
+
+**Scenario 6**: The user can now draw on the canvas using the selected color.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: The user might press an invalid key or a key that does not correspond to a color (e.g., a key outside the range 1 through 8) and we can remedy that by having the application not change the drawing color, and the user is informed with an error message.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Medium
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Present in the initial release.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: The user interacts with the application through the graphical user interface (GUI), using the keyboard to select the desired color.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: Need to provide a user guide for color selection.
 
 <hr>
 

@@ -6,31 +6,43 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Set Window and Canvas Dimensions
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: System Configuration
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor aims to configure the window and drawable canvas to specific dimensions.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: (1) The system is initialized and ready for configuration. (2) The primary actor has the necessary permissions to modify the window and canvas dimensions.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: System configuration settings are being adjusted.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 1**: The primary actor, "System Configuration," selects the "Configure Dimensions" option in the system settings menu.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario 2**: The system presents a configuration interface.
 
-**When available**: *the targeted release that covers this use case*
+**Scenario 3**: The secondary actor, the "User," specifies the desired width and height for the window and drawable canvas, setting them to 600 pixels wide and 400 pixels high.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Scenario 4**: The "User" confirms the configuration settings.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Scenario 5**: The system validates the dimensions to ensure they are within acceptable limits and feasible for the current environment.
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Scenario 6**: If the dimensions are valid, the system applies the new dimensions to the window and drawable canvas.
 
-**Open Issues**: *notes, concerns, or other materials*
+**Scenario 7**: The system updates the display to reflect the new dimensions.
+
+**Exceptions**: User can input dimensions that are unrealistic. If the specified dimensions are outside the acceptable limits (e.g., too large for the hardware), the system displays an error message. The user can then resubmit more correct dimensions.
+
+**Priority**: Medium-priority
+
+**When available**: Targeted for the next software release.
+
+**Channel to actor**: The primary actor, "System Configuration," interacts with the system through the Graphical User Interface (GUI), using input devices such as a keyboard and mouse to navigate the configuration interface and enter the desired dimensions.
+
+**Secondary Actor**: User
+
+**Channels to Secondary Actors**: The "User" interacts with the system through the same Graphical User Interface (GUI) to provide input and confirm configuration settings.
+
+**Open Issues**: It is not clear if the system should automatically save the configured dimensions or if the "User" should explicitly save them.
 
 <hr>
 

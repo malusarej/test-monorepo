@@ -6,31 +6,45 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Change Pixel Color on Mouse Left-Click
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor, a User, intends to change the pixel color on the drawing canvas by left-clicking the mouse at a specific location, facilitating a drawing action similar to using a pencil on a piece of paper.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: (1) The drawing application is running and accessible. (2) The drawing canvas is displayed and ready for user interaction.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: The user initiates a left-click with the mouse.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 1**: The user launches the drawing application.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario 2**: The application displays a drawing canvas.
 
-**When available**: *the targeted release that covers this use case*
+**Scenario 3**: The user positions the mouse cursor at a specific location on the canvas where they want to change the pixel color.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Scenario 4**: The user initiates a left-click action on the canvas.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Scenario 5**: The application recognizes the left-click event.
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Scenario 6**: The application determines the current selected drawing color (e.g., based on a previous color selection).
 
-**Open Issues**: *notes, concerns, or other materials*
+**Scenario 7**: The application changes the pixel color at the clicked location to the selected color, allowing the user to draw or make edits.
+
+**Scenario 8**: The user can continue dragging and left-clicking to draw or edit on the canvas.
+
+**Exceptions**: (1) The user might initiate a click outside the boundaries of the canvas and in that case the application does not perform any drawing action and informs the user to click within the canvas area. (2) If there is an error in recognizing the selected color, then the application defaults to a predefined color or prompts the user to select a color before proceeding with drawing.
+
+**Priority**: High-priority
+
+**When available**: Present in the initial release.
+
+**Channel to actor**: The user interacts with the application through the graphical user interface (GUI) using the mouse to trigger the pixel color change action.
+
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: None
+
+**Open Issues**: We may need to implement more complex color pickings and introduce concepts like shading etc.
 
 <hr>
 

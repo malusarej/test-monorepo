@@ -6,31 +6,45 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Clear Canvas
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor, a User, wants to clear the entire drawing canvas in a drawing application, filling it with a solid color based on the last selected color.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: (1) The mini-paint application is running and accessible. (2) The drawing canvas contains existing drawings. (3) The user has previously selected a drawing color.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: The user presses the space key to clear the canvas.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: The user launches the mini-paint application.
+
+**Scenario 2**: The application displays a drawing canvas containing existing drawings.
+
+**Scenario 3**: The user has previously selected a drawing color (e.g., by pressing a number key).
+
+**Scenario 4**: The user decides to clear the canvas and presses the space key.
+
+**Scenario 5**: The application recognizes the space key press as a request to clear the canvas.
+
+**Scenario 6**: The application removes all existing drawings from the canvas.
+
+**Scenario 7**: The entire canvas is filled with the last selected color, creating a solid-colored canvas.
+
+**Scenario 8**: The user can now start drawing on the cleared canvas using the selected color.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: The user presses the space key when there are no existing drawings on the canvas and a solution for that is the application does not perform any action and informs the user that there is nothing to clear.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Low
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Present in the initial release.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: The user interacts with the application through the graphical user interface (GUI), using the keyboard to trigger the canvas-clearing action.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: User may accidentally press space key when they don't mean to 
 
 <hr>
 

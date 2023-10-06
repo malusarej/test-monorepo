@@ -1,12 +1,10 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
-- Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
-- (Optional) What was your favorite part of the assignment?
+- Name: Janhavi Malusare
+- How many hours did it take you to complete this assignment? 5 hours 
+- Did you collaborate with any other students/TAs/Professors? No
+- Did you use any external resources? (Cite them below) : No
+- (Optional) What was your favorite part of the assignment? : Figuring out what needed to be refactored based on tests.
 - (Optional) How would you improve the assignment?
 
 # Implementation Logistics
