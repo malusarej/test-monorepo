@@ -1,4 +1,4 @@
-As a PayPal user, I want to be able to send money to my friends and family quickly and securely, so that I can easily settle debts, share expenses, and support loved ones in need.
+As a PayPal user, I can send money to my friends and family quickly and securely, so that I can easily settle debts, share expenses, and support loved ones in need.
 
 Acceptance Criteria:
 
